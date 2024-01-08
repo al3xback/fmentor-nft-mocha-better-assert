@@ -34,22 +34,22 @@ describe('DOM', () => {
 	});
 
 	it("should have a 'card' class used inside the DOM", () => {
-		const isCardClassExist = isAClassExist('card');
-		assert(isCardClassExist);
+		const isClassExist = isAClassExist('card');
+		assert(isClassExist);
 	});
 
 	it("should have a 'card__image' class used inside the DOM", () => {
-		const isCardImageClassExist = isAClassExist('card__image');
-		assert(isCardImageClassExist);
+		const isClassExist = isAClassExist('card__image');
+		assert(isClassExist);
 	});
 
 	it("should have a 'card__content' class used inside the DOM", () => {
-		const isCardContentExist = isAClassExist('card__content');
-		assert(isCardContentExist);
+		const isClassExist = isAClassExist('card__content');
+		assert(isClassExist);
 	});
 
 	it("should have a 'sr-only' class used inside the DOM", () => {
-		const isSrOnlyClassExist = isAClassExist('sr-only');
-		assert(isSrOnlyClassExist);
+		const isClassExist = isAClassExist('sr-only');
+		assert(isClassExist);
 	});
 });
